@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Samim;
+    src: url('Samim.eot');
+    src: url('Samim.eot?#iefix') format('embedded-opentype'),
+        url('Samim.woff2') format('woff2'),
+        url('Samim.woff') format('woff'),
+        url('Samim.ttf') format('truetype');
+    font-weight: normal;
+  }
+  body{
+    font-family: 'Samim' !important;
+    direction: rtl !important;
+    text-align: right !important;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.nav_dashboard{
+  height: 60px;
+  background: #348f6c;
+  color:white;
+}  
+
+.ul_dashboard{
+  list-style-type: none;
+}
+.li_dashboard{
+  float: right;
+  margin: 5px;
+}
+a{
+  color: white!important;
+}
+
+.vs-button{
+  text-align: center !important;
+  margin: auto !important;
+}
